@@ -1,0 +1,71 @@
+/* Importando a fonte Poppins do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0d0d0d; /* Fundo preto */
+    margin: 0;
+}
+
+.container {
+    background: #1a1a1a; /* Fundo quase preto para contraste */
+    padding: 20px;
+    border-radius: 16px; /* Bordas mais arredondadas */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3); /* Sombra mais intensa */
+    width: 340px;
+    text-align: center;
+    border: 2px solid #6b21a8; /* Borda roxa */
+}
+
+h2 {
+    color: #a78bfa; /* Roxo claro */
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #4f46e5; /* Azul vibrante */
+    border-radius: 12px;
+    color: #e0e7ff; /* Texto dos inputs (branco azulado) */
+    background-color: #27272a; /* Fundo escuro dos inputs */
+    outline: none;
+    transition: border-color 0.3s, background-color 0.3s; /* Animação suave ao focar */
+}
+
+input:focus {
+    border-color: #9333ea; /* Roxo vibrante ao focar */
+    background-color: #374151; /* Fundo mais claro ao focar */
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #4f46e5; /* Azul vibrante */
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s, transform 0.2s; /* Efeitos de transição */
+}
+
+button:hover {
+    background-color: #3b82f6; /* Azul mais claro ao passar o mouse */
+    transform: scale(1.05); /* Leve crescimento ao passar o mouse */
+}
+
+.result {
+    margin-top: 20px;
+    font-weight: 500;
+    color: #e0e7ff; /* Texto branco azulado */
+    background-color: #27272a; /* Fundo escuro do resultado */
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #4f46e5; /* Borda azul */
+}
