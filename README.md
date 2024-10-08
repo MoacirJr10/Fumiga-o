@@ -146,5 +146,5 @@ Moacir Pereira da Silva Junior</a>
 
 Este projeto esta sobe a licença [MIT](./LICENSE).
 
-Feito por Moacir Pereira Da Silva Jnior👋🏽 [Entre em contato!](-https://www.linkedin.com/in/moacir-pereira-670b7b1a7-)
+Feito por Moacir Pereira Da Silva Jnior👋🏽 [Entre em contato!](https://www.instagram.com/moacir00/-)
 
