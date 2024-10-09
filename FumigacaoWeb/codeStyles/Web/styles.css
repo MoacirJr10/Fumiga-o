@@ -1,6 +1,7 @@
 /* Importando a fonte Poppins do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
+
 body {
     font-family: 'Poppins', sans-serif;
     display: flex;
@@ -68,4 +69,20 @@ button:hover {
     padding: 15px;
     border-radius: 12px;
     border: 1px solid #4f46e5; /* Borda azul */
+}
+.historico-container {
+    background-color: #27272a;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 12px;
+    color: #e0e7ff;
+    border: 1px solid #4f46e5;
+    max-height: 300px;
+    overflow-y: auto;
+}
+.historico-item {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #1a1a1a;
+    border-radius: 8px;
 }
